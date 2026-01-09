@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+<header class="header">
+    <h1 class="header__title">My Portfolio</h1>
+    <button id="themeToggle" class="header__btn">Toggle Theme</button>
+</header>
+
+<nav class="nav">
+    <a class="nav__link" href="#about">About</a>
+    <a class="nav__link" href="#projects">Projects</a>
+    <a class="nav__link" href="#contact">Contact</a>
+</nav>
+
+<main class="portfolio-grid">
+
+    <section id="about" class="card card--about">
+        <h2>About Me</h2>
+        <p>I am a front-end developer learning advanced CSS techniques.</p>
+    </section>
+
+    <section id="projects" class="card card--projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">Project One</div>
+            <div class="project-card">Project Two</div>
+            <div class="project-card">Project Three</div>
+        </div>
+    </section>
+
+    <section id="contact" class="card card--contact">
+        <h2>Contact</h2>
+        <p>Email: example@email.com</p>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>© 2025 Advanced Portfolio</p>
+</footer>
+
+<!-- JS -->
+<script src="js/theme-switcher.js"></script>
+</body>
+</html>
